@@ -1,0 +1,78 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\bin\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\bin\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'jade' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 verbose install initial load of D:\Projects\POC\NodeMVA-master\NodeMVA-master\07_BasicExpress\package.json
+5 warn package.json _07_BasicExpress@0.0.0 No repository field.
+6 warn package.json _07_BasicExpress@0.0.0 No README data
+7 warn package.json _07_BasicExpress@0.0.0 No license field.
+8 verbose installManyTop reading scoped package data from D:\Projects\POC\NodeMVA-master\NodeMVA-master\07_BasicExpress\node_modules\express\package.json
+9 verbose installManyTop reading scoped package data from D:\Projects\POC\NodeMVA-master\NodeMVA-master\07_BasicExpress\node_modules\jade\package.json
+10 verbose installManyTop reading scoped package data from D:\Projects\POC\NodeMVA-master\NodeMVA-master\07_BasicExpress\node_modules\stylus\package.json
+11 info package.json express@3.4.4 No license field.
+12 verbose readDependencies loading dependencies from D:\Projects\POC\NodeMVA-master\NodeMVA-master\07_BasicExpress\package.json
+13 verbose install jade is installed as 1.11.0
+14 silly cache add args [ 'jade@*', null ]
+15 verbose cache add spec jade@*
+16 silly cache add parsed spec Result {
+16 silly cache add   raw: 'jade@*',
+16 silly cache add   scope: null,
+16 silly cache add   name: 'jade',
+16 silly cache add   rawSpec: '*',
+16 silly cache add   spec: '*',
+16 silly cache add   type: 'range' }
+17 silly addNamed jade@*
+18 verbose addNamed "*" is a valid semver range for jade
+19 silly addNameRange { name: 'jade', range: '*', hasData: false }
+20 silly mapToRegistry name jade
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'jade',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   name: 'jade',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/jade
+25 verbose addNameRange registry:https://registry.npmjs.org/jade not in flight; fetching
+26 verbose request uri https://registry.npmjs.org/jade
+27 verbose request no auth needed
+28 info attempt registry request try #1 at 3:31:43 PM
+29 verbose request id 7037bb8df92cbe35
+30 http request GET https://registry.npmjs.org/jade
+31 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 151.101.24.162:443
+32 info attempt registry request try #2 at 3:31:54 PM
+33 http request GET https://registry.npmjs.org/jade
+34 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 151.101.24.162:443
+35 info attempt registry request try #3 at 3:32:55 PM
+36 http request GET https://registry.npmjs.org/jade
+37 verbose stack Error: connect ECONNREFUSED 151.101.24.162:443
+37 verbose stack     at Object.exports._errnoException (util.js:873:11)
+37 verbose stack     at exports._exceptionWithHostPort (util.js:896:20)
+37 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1077:14)
+38 verbose cwd D:\Projects\POC\NodeMVA-master\NodeMVA-master\07_BasicExpress
+39 error Windows_NT 6.1.7601
+40 error argv "C:\\Program Files\\nodejs\\bin\\node.exe" "C:\\Program Files\\nodejs\\bin\\node_modules\\npm\\bin\\npm-cli.js" "install" "jade"
+41 error node v4.4.7
+42 error npm  v2.15.8
+43 error code ECONNREFUSED
+44 error errno ECONNREFUSED
+45 error syscall connect
+46 error Error: connect ECONNREFUSED 151.101.24.162:443
+46 error     at Object.exports._errnoException (util.js:873:11)
+46 error     at exports._exceptionWithHostPort (util.js:896:20)
+46 error     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1077:14)
+46 error  { [Error: connect ECONNREFUSED 151.101.24.162:443]
+46 error   code: 'ECONNREFUSED',
+46 error   errno: 'ECONNREFUSED',
+46 error   syscall: 'connect',
+46 error   address: '151.101.24.162',
+46 error   port: 443,
+46 error   parent: '_07_BasicExpress' }
+47 error If you are behind a proxy, please make sure that the
+47 error 'proxy' config is set properly.  See: 'npm help config'
+48 verbose exit [ 1, true ]

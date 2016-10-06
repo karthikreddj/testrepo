@@ -1,10 +1,15 @@
 {
-  "name": "_02_HelloWorldHTTP",
+  "name": "_07_BasicExpress",
   "version": "0.0.0",
-  "description": "02_HelloWorldHTTP",
+  "description": "07_BasicExpress",
   "main": "app.js",
   "author": {
     "name": "Rami Sayar",
     "email": ""
+  },
+  "dependencies": {
+    "express": "3.4.4",
+    "jade": "*",
+    "stylus": "*"
   }
 }
